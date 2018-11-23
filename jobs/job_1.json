@@ -2,10 +2,9 @@
     "jobName":"Coin Master ETL",
     "description":"step 1: reports 1-3 in parallel, step 2: reports 4-5 in parallel",
     "reportsFlow": {
-                     "1": ["report_1", "report_2", "report_3"],
-                     "2": ["report_4", "report_5"],
-                     "3": ["report_6"]
+                     "1": ["report_1.sql", "report_2.sql", "report_3.sql"],
+                     "2": ["report_4.sql", "report_5.sql"],
+                     "3": ["report_6.sql"]
                    },
-    "schedule":"",
     "reportOutput":"gs://moon_bi_test_fghkdfd34/"
 }

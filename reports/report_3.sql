@@ -1,2 +1,1 @@
-SELECT *
-FROM   Coin_Master.table_2;
+SELECT * FROM Coin_Master.table_3;
