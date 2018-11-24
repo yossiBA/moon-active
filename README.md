@@ -19,7 +19,13 @@ How To Install This Program
 
 1. Clone this repository to the server/machine in which you want to execute this program.
 
-2. Execute Bash commend$ [sudo] pip install -r requirements.txt
+2. Execute Bash commend$ [sudo] pip install virtualenv
+
+3. Execute Bash commend$ virtualenv venv
+
+4. Execute Bash commend$ source venv/bin/activate (remember to deactivate)
+
+5. Execute Bash commend$ [sudo] pip install -r requirements.txt
 
 How To Use This Program
 -----------------------
