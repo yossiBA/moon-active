@@ -5,6 +5,9 @@ import sys
 import os
 import argparse
 
+def mkdirs(dir):
+    if not os.path.exists(dir):
+        os.makedirs(dir)
 
 def log(msg):
     with open(logfile, "a+") as log_file:
@@ -76,6 +79,9 @@ if __name__ == "__main__":
     parser.add_argument('--max_pool', help='max multiprocess', default=3)
 
     args = parser.parse_args()
+
+    mkdirs(args.base_dir + '/logs/')
+    mkdirs(args.base_dir + '/output/')
 
     logfile = args.base_dir + '/logs/{}.log'.format(args.job_name)
     jobFile = args.base_dir + '/jobs/{}.json'.format(args.job_name)
