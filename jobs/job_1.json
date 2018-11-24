@@ -1,5 +1,5 @@
 {
-    "jobName":"Coin Master ETL",
+    "jobName":"Coin Master parallel reports processing",
     "description":"step 1: reports 1-3 in parallel, step 2: reports 4-5 in parallel",
     "reportsFlow": {
                      "1": ["report_1.sql", "report_2.sql", "report_3.sql"],

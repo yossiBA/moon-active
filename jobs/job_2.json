@@ -1,0 +1,10 @@
+{
+    "jobName":"Coin Master serial reports processing",
+    "description":"step 1: report 11 , step 2: report 12, step 3: report 13",
+    "reportsFlow": {
+                     "1": ["report_11.sql"],
+                     "2": ["report_12.sql"],
+                     "3": ["report_13.sql"]
+                   },
+    "reportOutput":"gs://moon_bi_test_fghkdfd34/"
+}

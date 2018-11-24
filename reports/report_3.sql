@@ -1,1 +1,1 @@
-SELECT * FROM Coin_Master.table_3;
+SELECT * FROM report_3;
