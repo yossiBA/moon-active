@@ -7,9 +7,11 @@ import sys
 import os
 import argparse
 
-def mkdirs(dir):
-    if not os.path.exists(dir):
-        os.makedirs(dir)
+
+def mkdirs(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
 
 def log(msg):
     with open(logfile, "a+") as log_file:
